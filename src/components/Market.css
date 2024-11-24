@@ -1,0 +1,152 @@
+.wrapper {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 70px;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    border-bottom: 1px solid rgb(155, 155, 160);
+}
+
+.message {
+    color: red;
+    height: 40px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+
+th,
+td {
+    padding: 8px 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(odd) {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.row-title {
+    text-align: left;
+}
+
+.your-move {
+    background-color: pink;
+    font-size: large;
+}
+
+.table-header {
+    color: rgb(0, 81, 255);
+    border-bottom: 1px solid rgb(155, 155, 160);
+}
+
+.move-header {
+    color: rgb(0, 81, 255);
+}
+
+.sand-clock {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.move-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: brown;
+}
+
+.move-line {
+    height: 55px;
+}
+
+.avatar-block {
+    display: flex;
+}
+
+.button-block {
+    display: flex;
+    justify-content: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 3px 7px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 5px;
+    min-width: 110px;
+    cursor: pointer;
+}
+
+.success {
+    background-color: green;
+    color: azure;
+}
+
+.danger {
+    background-color: rgb(185, 16, 16);
+    color: azure;
+}
+
+.primary {
+    background-color: rgb(7, 127, 175);
+    color: azure;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.empty {
+    border: 1px solid red;
+    color: red;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.btn:hover {
+    filter: brightness(150%);
+}
+
+.marja {
+    color: green;
+}
+
+.izgot {
+    color: rgb(0, 89, 255);
+}
+
+.delta {
+    color: brown
+}
