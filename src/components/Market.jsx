@@ -1,5 +1,12 @@
 import "./Market.css";
 import React from "react";
+import avatar  from "../assets/avatar.png";
+import sand_clock  from "../assets/sand_clock.png"
+import chat  from "../assets/chat.png"
+import refresh  from "../assets/refresh.png"
+import hammer  from "../assets/hammer.png"
+import report  from "../assets/report.png"
+import cancel  from "../assets/cancel.png"
 
 class Market extends React.Component {
   constructor(props) {
@@ -62,7 +69,7 @@ class Market extends React.Component {
                   {this.state.move === 1 && (
                     <div className="move-container">
                       <div>{this.startDate.toLocaleTimeString()}</div>
-                      <img className="sand-clock" src="/sand_clock.png" alt="sand-watch"></img>
+                      <img className="sand-clock" src={ sand_clock } alt="sand-watch"></img>
                     </div>
                   )}
                 </div>
@@ -72,7 +79,7 @@ class Market extends React.Component {
                   {this.state.move === 2 && (
                     <div className="move-container">
                       <div>{this.startDate.toLocaleTimeString()}</div>
-                      <img className="sand-clock" src="/sand_clock.png" alt="sand-watch"></img>
+                      <img className="sand-clock" src={ sand_clock } alt="sand-watch"></img>
                     </div>
                   )}
                 </div>
@@ -82,7 +89,7 @@ class Market extends React.Component {
                   {this.state.move === 3 && (
                     <div className="move-container">
                       <div>{this.startDate.toLocaleTimeString()}</div>
-                      <img className="sand-clock" src="/sand_clock.png" alt="sand-watch"></img>
+                      <img className="sand-clock" src={ sand_clock } alt="sand-watch"></img>
                     </div>
                   )}
                 </div>
@@ -92,7 +99,7 @@ class Market extends React.Component {
                   {this.state.move === 4 && (
                     <div className="move-container">
                       <div>{this.startDate.toLocaleTimeString()}</div>
-                      <img className="sand-clock" src="/sand_clock.png" alt="sand-watch"></img>
+                      <img className="sand-clock" src={ sand_clock } alt="sand-watch"></img>
                     </div>
                   )}
                 </div>
@@ -100,10 +107,10 @@ class Market extends React.Component {
             </tr>
             <tr className="table-header">
               <th scope="col">ПАРАМЕТРЫ И ТРЕБОВАНИЯ</th>
-              <th scope="col"><div>УЧАСТНИК №1</div><div className="avatar-block"><img className="sand-clock" src="/avatar.png" alt="avatar"></img><div>ООО "СПЕЦПОСТАВКА"</div></div></th>
-              <th scope="col"><div>УЧАСТНИК №2</div><div className="avatar-block"><img className="sand-clock" src="/avatar.png" alt="avatar"></img><div>ЛОТОС ПРО</div></div></th>
-              <th scope="col"><div>УЧАСТНИК №3</div><div className="avatar-block"><img className="sand-clock" src="/avatar.png" alt="avatar"></img><div>ООО "УЗТО"</div></div></th>
-              <th scope="col"><div>УЧАСТНИК №4</div><div className="avatar-block"><img className="sand-clock" src="/avatar.png" alt="avatar"></img><div>ООО "ПКЗ УЗТО"</div></div></th>
+              <th scope="col"><div>УЧАСТНИК №1</div><div className="avatar-block"><img className="sand-clock" src={ avatar } alt="avatar"></img><div>ООО "СПЕЦПОСТАВКА"</div></div></th>
+              <th scope="col"><div>УЧАСТНИК №2</div><div className="avatar-block"><img className="sand-clock" src={ avatar } alt="avatar"></img><div>ЛОТОС ПРО</div></div></th>
+              <th scope="col"><div>УЧАСТНИК №3</div><div className="avatar-block"><img className="sand-clock" src={ avatar } alt="avatar"></img><div>ООО "УЗТО"</div></div></th>
+              <th scope="col"><div>УЧАСТНИК №4</div><div className="avatar-block"><img className="sand-clock" src={ avatar } alt="avatar"></img><div>ООО "ПКЗ УЗТО"</div></div></th>
             </tr>
           </thead>
           <tbody>
@@ -182,11 +189,11 @@ class Market extends React.Component {
         </table>
 
         <div className="button-block">
-<div className="btn success"> <img className="sand-clock" src="/chat.png" alt="chat"></img><div>ЧАТ</div></div>
-<div className="btn primary"> <img className="sand-clock" src="/refresh.png" alt="refresh"></img><div>Обновить</div></div>
-<div className="btn danger"> <img className="sand-clock" src="/hammer.png" alt="hammer"></img><div>ЗАВЕРШИТЬ ТОРГИ</div></div>
-<div className="btn empty"> <img className="sand-clock" src="/report.png" alt="report"></img><div>ОТЧЁТ</div></div>
-<div className="btn grey"> <img className="sand-clock" src="/cancel.png" alt="cancel"></img><div>ЗАКРЫТЬ</div></div>
+<div className="btn success"> <img className="sand-clock" src={ chat } alt="chat"></img><div>ЧАТ</div></div>
+<div className="btn primary"> <img className="sand-clock" src={ refresh } alt="refresh"></img><div>Обновить</div></div>
+<div className="btn danger"> <img className="sand-clock" src={ hammer } alt="hammer"></img><div>ЗАВЕРШИТЬ ТОРГИ</div></div>
+<div className="btn empty"> <img className="sand-clock" src= { report } alt="report"></img><div>ОТЧЁТ</div></div>
+<div className="btn grey"> <img className="sand-clock" src={ cancel } alt="cancel"></img><div>ЗАКРЫТЬ</div></div>
         </div>
       </div>
     );
